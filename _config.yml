@@ -88,7 +88,7 @@ defaults:
 # Site Author
 author:
   name: nerrons
-  picture: "/images/bw.jpg"
+  picture:
   email: coniinedieu@gmail.com
   twitter:
   links:
