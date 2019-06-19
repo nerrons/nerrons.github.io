@@ -15,7 +15,48 @@ matters, I couldn't focus on getting the job done, postponed the work frequently
 discussion with my mentor. Now, even though the K12 Mode is roughly working as planned, the quality isn't
 as good as I've expected. I apologize for the lack of quality in my work.
 
-That being said, I still have about two weeks to catch up, and I do want to continue working under Purr
-Data and GSoC. Here, I will give a brief summary on the progress I've made until now and the next steps
-before the first evaluation.
+That being said, I still have about ten days to catch up, and I, apparently, do want to continue working
+under Purr Data and GSoC. Here, I will give a brief summary on the progress I've made until now and the
+next steps before the first evaluation. The changes on the Purr Data GitLab repo can be found
+[here](https://git.purrdata.net/nerrons/purr-data/merge_requests/2).
 
+## Changes inside the build system
++ For Windows: Inno Setup now creates new shortcuts that launch Purr Data in K12 mode on the desktop and
+  the Start Menu. Relevent changes are in `pd-inno.ss.in` and `pd-inno-light.ss.in`.
++ For macOS: During build time, a separate, minimal app called Pd-l2ork-K12 will be created and copied
+  into the dmg installer, so it can be dragged into the user's Applications folder at the same time. The
+  app simply calls the actual Pd-l2ork app with a `-k12` flag. A separate app is chosen over a company
+  shell script or anything similar because it allows customized icons. Also, the K12 abstractions folder
+  will be copied to `@extra`. Relevent changes are in the `darwin_app` Makefile and the `k12-launcher`
+  folder.
++ For Linux: I haven't made any changes to the Linux build system, but I expect it to be similar to and
+  easier than macOS (just adding a shell script executable with an icon).
+
+## Changes in the front end
++ `index.js`: Now reads `-k12` flag and sets up K12 mode in pdgui.
++ `pdgui.js`: Now has two more exported functions that returns whether K12 mode is on and the horizontal
+  bias in pixels introduced by the width of the K12 frame (called the k12 offset). Besides, a few places
+  in this file that uses the width of the window and the svg will respect the offset.
++ `pd_canvas.html`: Now has a new `<div id="k12-frame">` right before the `patchsvg`. The build/perform
+  button and the control/signal button are predefined in the HTML, and the K12 abstraction buttons will
+  be appended to the div whenever a new canvas is created. Also the html file now serves as a temporary
+  place to hold K12 related CSS.
++ `pd_canvas.js`: Firstly, like `pdgui.js`, the offset will be considered when the mouse is clicked on
+  the canvas window; secondly, during initialization, `pd_k12abs.json` will be read and converted to
+  buttons on the K12 frame.
++ `pd_k12abs.json`: Contains information about K12 abstractions (category, name and description).
+
+Now the canvas looks like this. The flashy background color is just to make it easier to see the margins.
+
+![k12-tiger](/images/k12-tiger.png)
+
+## What next?
+There are still a few things in the proposed timeline that didn't get realized, including:
+
++ Hide menu entries that are too complicated.
++ Add a hidden `preset_hub` for all new canvas windows.
++ Add the new K12 abstractions in the latest Pd-l2ork update to the JSON file.
+
+Fortunately, these jobs don't require very sophisticated and original solutions, only careful
+implementations and design-thinking, which would be more "suitable" for the situation I'm currently stuck
+in. I am still confident that I can get the job done.
