@@ -31,7 +31,7 @@ body {
 html:lang(zh-Hant-TW),
 *:not(:lang(zh)):not(:lang(ja)),
 #beautiful-body * {
-	font-family: $serif-font-family;
+	font-family: $serif-font-family !important;
 }
 article p:lang(en) {
 	text-align: left;
