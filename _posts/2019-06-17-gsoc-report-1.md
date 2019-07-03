@@ -61,7 +61,7 @@ There are still a few things in the proposed timeline that didn't get realized, 
 - &#129300; Add a hidden `preset_hub` for all new canvas windows.
 - &#129300; Fix the margins on the K12 frame (currently the abstraction buttons part has a larger margin).
 - &#129300; Add the new K12 abstractions in the latest Pd-l2ork update to the JSON file.
-{:.cool}
+{:.ul-nobullet}
 
 Fortunately, these jobs don't require very sophisticated and original solutions, only careful
 implementations and design-thinking, which would be more "suitable" for the situation I'm currently stuck
