@@ -28,10 +28,12 @@ body {
 }
 
 /* Hant Hans */
-html:lang(zh-Hant-TW) {
+html:lang(zh-Hant-TW),
+html:not(:lang(zh)):not(:lang(ja)),
+*:not(:lang(zh)):not(:lang(ja)) {
 	font-family: $serif-font-family;
 }
-*:not(:lang(zh)):not(:lang(ja)) {
+article:lang(en) {
 	font-family: $serif-font-family;
 	text-align: left;
 }
