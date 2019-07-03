@@ -1,5 +1,4 @@
 ---
-lang: "en-US"
 title: "Purr Data x GSoC: Phase 1"
 categories:
   - Programming
