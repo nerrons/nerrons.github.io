@@ -25,9 +25,16 @@ tags:
 
 成發臺……進工自飛放由麼加創中著，灣的起平美一天對自。
 
-報部的著！表無響公，夜轉子標。友然多電質長。保股漸十，了因人準問值花。
+報部的著！表無響公，夜轉子標。友然多電質長。保股漸十，了因人準問
+值花。任錯代樂生腦十眼以放總如！動大人金葉引陸之前說來，離天長的識以的術義。
 
-任錯代樂生腦十眼以放總如！動大人金葉引陸之前說來，離天長的識以的術義。
+> 沒有任何人告訴我應該怎麽去抉擇。這個 _人間地獄_ 我已經瞭然於心。這個是 __強壯的兇殺案__ 。
+> 再來一次。這是*人間地獄*。這是**強壯的兇殺案**。
+> 其實很無所謂！！
+
+外面也是*人間地獄*。順便給你一個註腳[^1]。
+
+[^1]: 完全不知道是什麼意思。
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id nibh rutrum, venenatis libero ut, eleifend lacus. Sed et est nec metus congue vulputate. Vivamus congue urna lectus, luctus pretium dolor laoreet nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In tempus tortor placerat, lacinia risus eu, iaculis leo. Integer pellentesque et ex at consectetur. Sed aliquet vitae nunc nec porttitor. Maecenas consequat ultrices diam sit amet aliquet. Pellentesque laoreet consectetur vestibulum. In suscipit dignissim vulputate.
 
