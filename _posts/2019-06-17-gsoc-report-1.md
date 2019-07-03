@@ -21,8 +21,9 @@ before the first evaluation. The changes I have commited to the Purr Data GitLab
 [here](https://git.purrdata.net/nerrons/purr-data/merge_requests/2).
 
 ## Changes inside the build system
-+ For Windows: Inno Setup now creates new shortcuts to launch Purr Data in K12 Mode on the desktop and
-  the Start Menu. Relevent changes are in `pd-inno.ss.in` and `pd-inno-light.ss.in`.
+
++ For Windows: Makefile copies the K12 abstractions to `@extra`. Inno Setup now creates new shortcuts 
+  to launch Purr Data in K12 Mode on the desktop and the Start Menu. Relevent changes are in `pd-inno.ss.in` and `pd-inno-light.ss.in`.
 + For macOS: During build time, a separate, minimal app called Pd-l2ork-K12 will be created and copied
   into the dmg installer, so it can be dragged into the `/Applications` folder along with the actual
   app. The app simply invokes the Pd-l2ork app with a `-k12` flag. A separate app is chosen over a shell
@@ -32,6 +33,7 @@ before the first evaluation. The changes I have commited to the Purr Data GitLab
   easier than macOS (just adding an executable shell script with an icon).
 
 ## Changes in the front end
+
 + `index.js`: Now reads `-k12` flag and sets up K12 mode in pdgui accordingly.
 + `pdgui.js`: Now has two more exported functions that return 1. whether K12 mode is on; 2. the
   horizontal bias in pixels introduced by the width of the K12 frame (called the k12 offset). Besides, a
@@ -52,6 +54,7 @@ to see the margins.
 ![k12-tiger](/images/k12-tiger.png)
 
 ## What next?
+
 There are still a few things in the proposed timeline that didn't get realized, including:
 
 + [X] Add a "Show K12 demos" entries in the Files menu.
