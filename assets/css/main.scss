@@ -7,8 +7,8 @@ sitemap: false
 $base-font-size: 18px !default;
 $max-font-size: 20px !default;
 
-$serif-font-family: "Noto Serif", "Noto Serif TC", serif !default;
-$sans-serif-font-family: "Noto Serif", "Noto Serif TC", sans-serif !default;
+$serif-font-family: 'Biaodian Pro Sans CNS', "Noto Serif", "Noto Serif TC", serif !default;
+$sans-serif-font-family: 'Biaodian Pro Sans CNS', "Noto Serif", "Noto Serif TC", sans-serif !default;
 
 $base-font-family: $sans-serif-font-family;
 $headline-font-family: $sans-serif-font-family;
@@ -24,7 +24,7 @@ $meta-font-family: $sans-serif-font-family;
 }
 
 body {
-	line-height: 1.8;
+	line-height: 1.7;
 }
 
 /* Hant Hans */
@@ -45,4 +45,12 @@ samp:lang(ja-Latn), samp:lang(zh-Latn), samp:not(:lang(zh)):not(:lang(ja)) {
 }
 article p:lang(en) {
 	text-align: left;
+}
+article blockquote:lang(zh-Hant-TW) {
+	font-family: 'Biaodian Pro Sans CNS', 'Noto Serif', 'Noto Serif TC', serif;
+}
+[lang*="Hant"], [lang="zh-TW"], [lang="zh-HK"], [lang^="zh"],
+article strong:lang(zh), article strong:lang(zh-Hant),
+html:lang(zh), html:lang(zh-Hant) {
+	font-family: 'Biaodian Pro Sans CNS', 'Noto Serif', 'Noto Serif TC', serif;
 }

@@ -28,7 +28,7 @@ tags:
 報部的著！表無響公，夜轉子標。友然多電質長。保股漸十，了因人準問
 值花。任錯代樂生腦十眼以放總如！動大人金葉引陸之前說來，離天長的識以的術義。
 
-> 沒有任何人告訴我應該怎麽去抉擇。這個 _人間地獄_ 我已經瞭然於心。這個是 __強壯的兇殺案__ 。
+> 沒有任何人告訴我應該怎麼去抉擇。這個*人間地獄*我已經瞭然於心。這個是**強壯的兇殺案**。
 > 再來一次。這是*人間地獄*。這是**強壯的兇殺案**。
 > 其實很無所謂！！
 
@@ -37,10 +37,13 @@ tags:
 [^1]: 完全不知道是什麼意思。
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id nibh rutrum, venenatis libero ut, eleifend lacus. Sed et est nec metus congue vulputate. Vivamus congue urna lectus, luctus pretium dolor laoreet nec. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In tempus tortor placerat, lacinia risus eu, iaculis leo. Integer pellentesque et ex at consectetur. Sed aliquet vitae nunc nec porttitor. Maecenas consequat ultrices diam sit amet aliquet. Pellentesque laoreet consectetur vestibulum. In suscipit dignissim vulputate.
+{: lang="en"}
 
 Nullam id molestie massa. Suspendisse semper enim a pretium convallis. Phasellus et hendrerit tellus. Cras euismod tortor enim, ac scelerisque justo ullamcorper et. Nam fermentum viverra tincidunt. Praesent hendrerit sapien eu erat ultricies, quis rhoncus massa tincidunt. Duis lacinia purus non purus molestie, sit amet blandit ante commodo. Sed tincidunt libero et urna maximus, sit amet dictum tortor feugiat. Duis sed lacus vel velit commodo dignissim non malesuada turpis. Nulla quam est, lacinia et ex quis, laoreet tempor felis. Quisque ullamcorper urna et tellus fringilla euismod.
+{: lang="en"}
 
 Donec vitae laoreet purus. Suspendisse potenti. Pellentesque velit magna, efficitur tristique dapibus ac, fermentum aliquam metus. Suspendisse potenti. Morbi elementum turpis felis, eget placerat eros accumsan vitae. Integer pulvinar ac nisl eget euismod. Vestibulum non dolor massa. Phasellus id sapien ultrices, aliquam ipsum quis, efficitur ante. Nunc pulvinar enim eget quam pretium, id blandit felis bibendum.
+{: lang="en"}
 
 Morbi interdum metus ut egestas fermentum. Fusce vel odio laoreet, scelerisque quam a, ullamcorper velit. Morbi et finibus quam, ac rhoncus nisi. Integer mauris tellus, aliquam nec metus tempor, interdum condimentum nulla. Nunc posuere fermentum viverra. Donec vitae quam viverra, egestas turpis id, egestas libero. Sed vehicula dolor sed varius lobortis. Nulla ac ligula convallis, faucibus purus eu, porta massa. Donec gravida risus dignissim, condimentum nibh et, condimentum mi. Morbi bibendum aliquet aliquet. Nullam augue neque, varius sed orci bibendum, pretium elementum nibh. Mauris vel nibh risus. Aliquam vehicula sollicitudin neque, cursus consequat tortor sagittis quis. Quisque eget fringilla tellus. Fusce sit amet venenatis nunc, ut vulputate nulla. Morbi consectetur imperdiet velit, et finibus mauris condimentum id.
 
