@@ -25,7 +25,7 @@
 
 	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 	{% if site.google_fonts %}
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family={%- for font in site.google_fonts -%}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}&display=swap{%if font.subset %}&subset={% endif %}{{ font.subset | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{%- endfor -%}">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family={%- for font in site.google_fonts -%}{{ font.name | replace: ' ', '+' }}{% if font.weights %}:{% endif %}{{ font.weights | remove: ' ' }}{%if font.subset %}&subset={% endif %}{{ font.subset | remove: ' ' }}{% if forloop.last != true %}|{% endif %}{%- endfor -%}&display=swap">
   {% endif %}
 
   {%- if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' -%}
