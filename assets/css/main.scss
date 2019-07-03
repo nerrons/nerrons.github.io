@@ -5,4 +5,12 @@ sitemap: false
 
 @charset "utf-8";
 
+$serif-font-family: "Noto Serif SC", serif !default;
+$sans-serif-font-family: "Noto Serif SC", sans-serif !default;
+
 @import "so-simple";
+
+.ul-nobullet {
+	margin-left: 20px;
+	list-style-type: none;
+}
