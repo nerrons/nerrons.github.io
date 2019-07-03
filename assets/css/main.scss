@@ -29,11 +29,19 @@ body {
 
 /* Hant Hans */
 html:lang(zh-Hant-TW),
-*:not(:lang(zh)):not(:lang(ja)) {
+*:not(:lang(zh)):not(:lang(ja)),
+html :not(:lang(zh)):not(:lang(ja)) {
 	font-family: $serif-font-family;
 }
-html:not(:lang(zh)):not(:lang(ja)) {
-	font-family: $serif-font-family !important;
+code :lang(ja-Latn), code:lang(zh-Latn), code:not(:lang(zh)):not(:lang(ja)),
+code:lang(ja-Latn), code:lang(zh-Latn), code :not(:lang(zh)):not(:lang(ja)),
+kbd :lang(ja-Latn), kbd :lang(zh-Latn), kbd :not(:lang(zh)):not(:lang(ja)),
+kbd:lang(ja-Latn), kbd:lang(zh-Latn), kbd:not(:lang(zh)):not(:lang(ja)),
+pre :lang(ja-Latn), pre :lang(zh-Latn), pre :not(:lang(zh)):not(:lang(ja)),
+pre:lang(ja-Latn), pre:lang(zh-Latn), pre:not(:lang(zh)):not(:lang(ja)),
+samp :lang(ja-Latn), samp :lang(zh-Latn), samp :not(:lang(zh)):not(:lang(ja)),
+samp:lang(ja-Latn), samp:lang(zh-Latn), samp:not(:lang(zh)):not(:lang(ja)) {
+    font-family: Menlo, Consolas, Courier, monospace, sans-serif !important;
 }
 article p:lang(en) {
 	text-align: left;
