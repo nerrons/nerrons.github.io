@@ -1,5 +1,4 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 sitemap: false
 ---
 
@@ -9,8 +8,8 @@ $base-font-size: 18px !default;
 $max-font-size: 20px !default;
 
 
-$serif-font-family: "Libre Baskerville", "Noto Serif SC", serif !default;
-$sans-serif-font-family: "Libre Baskerville", "Noto Serif SC", sans-serif !default;
+$serif-font-family: "IBM Plex Serif", "Noto Serif TC", serif !default;
+$sans-serif-font-family: "IBM Plex Serif", "Noto Serif TC", sans-serif !default;
 
 $base-font-family: $sans-serif-font-family;
 $headline-font-family: $sans-serif-font-family;
