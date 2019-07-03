@@ -28,7 +28,7 @@ mathjax: false # MathJax equations, e.g. true
 google_fonts:
 #  - name: "Libre Baskerville"
 #    weights: "400,400i,700"
-  - name: "EB Garamound"
+  - name: "EB Garamond"
     weights: "400,400i,700,700i"
   - name: "Noto Serif SC"
     weights: "300,700"
@@ -101,4 +101,3 @@ footer_links:
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
-    
