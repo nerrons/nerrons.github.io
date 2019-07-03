@@ -31,7 +31,7 @@ google_fonts:
   - name: "Literata"
     weights: "400,400i,700,700i"
   - name: "Noto Serif SC"
-    weights: "400,700"
+    weights: "300,700"
     subset: "chinese-simplified"
 google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 disqus:
