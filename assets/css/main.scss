@@ -29,11 +29,10 @@ body {
 
 /* Hant Hans */
 html:lang(zh-Hant-TW),
-html:not(:lang(zh)):not(:lang(ja)),
-*:not(:lang(zh)):not(:lang(ja)) {
+*:not(:lang(zh)):not(:lang(ja)),
+#beautiful-body * {
 	font-family: $serif-font-family;
 }
-article:lang(en) {
-	font-family: $serif-font-family;
+article p:lang(en) {
 	text-align: left;
 }
