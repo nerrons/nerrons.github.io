@@ -7,7 +7,6 @@ sitemap: false
 $base-font-size: 18px !default;
 $max-font-size: 20px !default;
 
-
 $serif-font-family: "Noto Serif", "Noto Serif TC", serif !default;
 $sans-serif-font-family: "Noto Serif", "Noto Serif TC", sans-serif !default;
 
@@ -26,4 +25,12 @@ $meta-font-family: $sans-serif-font-family;
 
 body {
 	line-height: 1.8;
+}
+
+/* Hant Hans */
+html:lang(zh-Hant-TW) {
+	font-family: $serif-font-family;
+}
+*:not(:lang(zh)):not(:lang(ja)) {
+	font-family: $serif-font-family;
 }

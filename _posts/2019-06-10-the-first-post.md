@@ -1,5 +1,4 @@
 ---
-lang: "zh-Hant-TW"
 title: "[Test] The First Post 第一篇文章"
 categories:
   - Meta

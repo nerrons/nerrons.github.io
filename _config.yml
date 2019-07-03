@@ -16,6 +16,7 @@
 # theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 locale: en-US
+lang: zh-Hant-TW
 title: "nerrons"
 description: "a wannabe nihilist"
 baseurl: # the subpath of your site, e.g. "/blog"
