@@ -19,7 +19,7 @@ $meta-font-family: $sans-serif-font-family;
 @import "so-simple";
 
 .ul-nobullet {
-	margin-left: 20px;
+	margin-left: 10px;
 	list-style-type: none;
 }
 
@@ -43,7 +43,8 @@ samp :lang(ja-Latn), samp :lang(zh-Latn), samp :not(:lang(zh)):not(:lang(ja)),
 samp:lang(ja-Latn), samp:lang(zh-Latn), samp:not(:lang(zh)):not(:lang(ja)) {
     font-family: Menlo, Consolas, Courier, monospace, sans-serif !important;
 }
-article p:lang(en) {
+article p:lang(en),
+article li:lang(en) {
 	text-align: left;
 }
 article blockquote:lang(zh-Hant-TW) {
