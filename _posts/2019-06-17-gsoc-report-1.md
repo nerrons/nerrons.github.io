@@ -59,8 +59,8 @@ to see the margins.
 There are still a few things in the proposed timeline that didn't get realized, including:
 
 - &#128526; Add a "Show K12 demos" entries in the Files menu.
-- &#129300; Add a hidden `preset_hub` for all new canvas windows.
-- &#129300; Fix the margins on the K12 frame (currently the abstraction buttons part has a larger margin).
+- &#128526; Add a hidden `preset_hub` for all new canvas windows.
+- &#128526; Fix the margins on the K12 frame (currently the abstraction buttons part has a larger margin).
 - &#129300; Add the new K12 abstractions in the latest Pd-l2ork update to the JSON file.
 {:.ul-nobullet}
 
