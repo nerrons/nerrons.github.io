@@ -8,9 +8,7 @@ tags:
   - gsoc
 ---
 
-
-
-## Things done
+# Things done
 Below is a list of merge requests submitted during the coding period.
 - [General improvements for the building process.](https://git.purrdata.net/jwilkes/purr-data/merge_requests/295)
 - [Building phase changes for K12 Mode.](https://git.purrdata.net/jwilkes/purr-data/merge_requests/297)
@@ -78,7 +76,7 @@ Below is the screenshot of the xlet tooltip feature.
 
 ![xlet-tt-demo](/images/xlet-tt-demo.gif)
 
-## What next?
+# What next?
 A few things in [the proposal](https://drive.google.com/open?id=1brEdq5efSpqipSECx2JNtK0P4p3STLns) were not yet realized.
 - Enhancing the image quality of the K12 abstraction background images, either by upscaling the .png file or converting them to .svg files.
 - Touchscreen support.
@@ -94,3 +92,6 @@ Also there are a lot of enhancements to work on.
 - When the xlet is on the right-most edge of the canvas, show the tooltip on the left of the cursor.
 - Integrate the new K12 abstractions from Pd-l2ork 1.0.
 - It might be a good idea to separate `<g>`s that draw the border and the xlets of an abstraction, so the content of GOP (especially images) can extend out of the borders without covering up the xlets.
+
+# One more thing
+My mentors, Ivica Ico Bukvic and Jonathan Wilkes, are great. Not only they answer my questions in great detail and review my code thoroughly, they do have faith in me when I am troubled by real-life problems and could not perform as well. I am extremely grateful about their mentoring and will keep contributing to Purr Data after GSoC. Thank you, and all the great minds who realized Pd.
