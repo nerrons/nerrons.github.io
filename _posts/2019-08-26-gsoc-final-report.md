@@ -8,6 +8,8 @@ tags:
   - gsoc
 ---
 
+This is the final report for Shaoqian's work under Purr Data during GSoC 2019.
+
 # Things done
 Below is a list of merge requests submitted during the coding period.
 - [General improvements for the building process.](https://git.purrdata.net/jwilkes/purr-data/merge_requests/295)
