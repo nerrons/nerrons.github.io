@@ -26,9 +26,6 @@
     <div class="entry-excerpt p-summary han-init-context">
       {% if entry.excerpt %}
         {{ entry.excerpt | markdownify }}
-        <div class="more-link">
-          <a href="{{ entry.url | relative_url }}">{{ site.data.text[site.locale].read_more | default: 'Read More' }}</a>
-        </div>
       {% endif %}
     </div>
   {% endunless %}
